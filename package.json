@@ -1,0 +1,23 @@
+{
+  "name": "hbo-newsletter",
+  "version": "1.0.0",
+  "description": "Link exchanger for HBO newsletter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eremziom/hbo-newsletter.git"
+  },
+  "author": "MK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eremziom/hbo-newsletter/issues"
+  },
+  "homepage": "https://github.com/eremziom/hbo-newsletter#readme",
+  "devDependencies": {
+    "csv-parse": "^4.12.0",
+    "node-html-parser": "^1.2.21"
+  }
+}
