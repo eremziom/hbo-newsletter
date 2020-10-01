@@ -1,7 +1,7 @@
 const fs = require('fs');
 const parse = require('csv-parse');
 
-
+// This function is responsible for convertion of "data-$number.csv file into data-$number.json file"
 module.exports = {
     createJson: function(number){
 
