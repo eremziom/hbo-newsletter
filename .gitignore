@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
-/data.*
+/data*
+/hbo*
 
 # local env files
 .env.local
