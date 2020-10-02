@@ -21,6 +21,10 @@ const srcExchanger = function(number, db){ //number is argument passed to create
         };
     };
     let newRoot = root; //save new parsed html to variable
+    root.querySelector('table').insertAdjacentHTML("afterend", //add footer to mail
+    `<div id="toya-mailing-footer" style="width:1px; height:1px; font-size:1px; line-height:1px;">
+    <img alt="" style="width: 1px; height: 1px;" width="1" height="1" src="https://toya.net.pl/tracking_pixel/pixel.png?%%token%%" />
+    </div>`);
     fileCreator(number, newRoot) //number is argument passed to create correct file names
 }
 
